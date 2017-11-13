@@ -1,0 +1,72 @@
+article
+  box-sizing: border-box
+  position: relative
+  text-align: justify
+.img-left-under
+  width: 570px / 1700px * 100%
+  padding-left: 200px /1700px *100%
+  float: left
+
+.img-right-over
+  width: 760px /1700px *100%
+  z-index: 1
+  position: absolute
+  left: 720px /1700px *100%
+  top: 660px /1700px *100%
+
+
+article:after
+  +clearfix()
+
+.text
+  width: 600px /1700px *100%
+  padding-top: 55px /1700px *100%
+  padding-right: 10px
+  padding-bottom: 60px /1700px *100%
+  padding-left: 95px /1700px *100%
+  float: left
+  font-family: $font-stack
+  font-weight: 300
+
+.text:after
+  +clearfix()
+
+h2
+  text-align: left
+  text-transform: uppercase
+  color: $font-color
+  font-weight: 300
+  font-family: $font-h
+  font-size: 38px
+
+p
+  color: $font-color
+  font-weight: 200
+  font-size: 16px
+
+.text-wide
+  padding-top: 115px/1700px *100%
+  padding-right: 200px /1700px *100%
+  padding-bottom: 86px/1700px *100%
+  padding-left: 200px /1700px *100%
+
+.img-long
+  padding: 0 265px /1700px *100%
+  margin: 0 auto
+  width: 1170px /1700px *100%
+
+.img-small
+  width: 390px /1700px *100%
+  margin-top: -130px/1700px *100%
+  position: absolute
+  left: 900px/1700px *100%
+
+.img-big-bg
+  width: 65%
+  z-index: -5
+
+.text-right
+  position: absolute
+  left: 755px/1700px *100%
+  top: 565px/1700px *100%
+  z-index: 5
